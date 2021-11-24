@@ -1,0 +1,8 @@
+<h1>編輯</h1>
+<%=form_for (@book) do |f|%>
+<%=f.label :name%>
+<%=f.text_field :name%>
+<%=f.label :price%>
+<%=f.number_field :price%>
+<%=f.submit%>
+<%end%>
